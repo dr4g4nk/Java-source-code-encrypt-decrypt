@@ -1,0 +1,33 @@
+.root {
+	 -fx-background-color: linear-gradient(#FFFFFF, #F5FFFA);
+}
+
+.button {
+    -fx-text-fill: white;
+	-fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-color: #4682B4;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+.button:focused {
+	-fx-border-color: #000F56;
+}
+.label{
+	-fx-font-size: 13px;
+}
+.text-field{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.choice-box {
+	-fx-background-color: #B0C4DE;
+	-fx-text-fill: black;
+	-fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.choice-box:focused {
+	-fx-border-color: #000F56;
+}
